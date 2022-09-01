@@ -9,5 +9,6 @@
   "insertPragma": false,
   "quoteProps": "as-needed",
   "arrowParens": "always",
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "tabWidth": 2
 }
