@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router";
 import { Restaurant } from "../../../api";
+import { links } from "../../../routes";
 
 type Props = {
   item: Restaurant;
@@ -9,8 +11,10 @@ const generateStyle = (url: string) => ({
 });
 
 const Card = ({ item }: Props) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="card-img" style={generateStyle(item.image)}>
+    <div className="card-img" style={generateStyle(item.image)} onClick={() => navigate(links.getDetails(item.id))}>
       <span className="card-title">{item.name}</span>
     </div>
   );

@@ -40,8 +40,12 @@ export default function List({ data, loading, searchTerm }: Props) {
                 );
               })}
             </div>
-          ) : (
+          ) : searchTerm !== "" ? (
             <h3>Nenhum resultado encontrado</h3>
+          ) : (
+            <div className="flex w-full h-56 justify-center items-center">
+              <Loading type="spin" width="4%" color="#DD4F50" />
+            </div>
           )}
         </div>
       )}

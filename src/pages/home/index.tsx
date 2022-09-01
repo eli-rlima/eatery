@@ -1,9 +1,11 @@
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import { getRestaurants, Restaurant } from "../../api";
-import Header from "../../components/Header";
+import Container from "../../components/Container";
 import List from "../../components/List";
 import Search from "../../components/Search";
 import useDebounce from "../../hooks/use-debounce";
+import { links } from "../../routes";
+import Header from "./Header";
 
 const initialData = {
   searchTerm: "",
@@ -30,11 +32,20 @@ export default function Home() {
 
   useEffect(() => void fetchData(), [fetchData]);
 
+  useEffect(() => {
+    const url = window.location;
+    if (url.pathname !== "/") {
+      url.replace(links.goHome());
+    }
+  }, []);
+
   return (
-    <div className="flex flex-col">
-      <Header />
-      <Search onSearch={onSearch} />
-      <List data={data.data} searchTerm={debouncedValue} loading={data.loading} />
-    </div>
+    <Container title="eatery">
+      <div className="flex flex-col">
+        <Header searched={debouncedValue !== ""} />
+        <Search onSearch={onSearch} />
+        <List data={data.data} searchTerm={debouncedValue} loading={data.loading} />
+      </div>
+    </Container>
   );
 }
