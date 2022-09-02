@@ -10,7 +10,13 @@ export default function Search({ onSearch }: Props) {
     <div className="flex flex-row w-full justify-center items-center absolute top-86">
       <div className="flex flex-row items-center justify-start">
         <SearchIcon className="absolute ml-3" />
-        <input className="input-search" onChange={onSearch} placeholder="Encontre um restaurante" type="text" />
+        <input
+          data-testid="search"
+          className="input-search"
+          onChange={onSearch}
+          placeholder="Encontre um restaurante"
+          type="text"
+        />
       </div>
     </div>
   );

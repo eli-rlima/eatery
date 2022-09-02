@@ -7,7 +7,7 @@ export default function Header({ searched }: Props) {
     <div>
       <section className="header-cover" />
       <div className="flex flex-row items-center justify-between w-full px-60 absolute top-8">
-        <span className="text-5xl">
+        <span className="text-5xl" data-testid="logo">
           eat<span className="text-red-logo">e</span>ry
         </span>
         {!searched && (

@@ -43,7 +43,7 @@ export default function List({ data, loading, searchTerm }: Props) {
           ) : searchTerm !== "" ? (
             <h3>Nenhum resultado encontrado</h3>
           ) : (
-            <div className="flex w-full h-56 justify-center items-center">
+            <div data-testid="loading" className="flex w-full h-56 justify-center items-center">
               <Loading type="spin" width="4%" color="#DD4F50" />
             </div>
           )}
