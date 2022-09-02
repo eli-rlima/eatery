@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import { Restaurant } from "../../../api";
 import BackIcon from "../../../assets/icons/back";
+import { links } from "../../../routes";
 import { formatPhone } from "../../../utils";
 
 type Props = {
@@ -16,19 +18,22 @@ export default function Header({ restaurant }: Props) {
   return (
     <div>
       <section className="header-restaurant-cover" style={generateStyle(restaurant.image, true)} />
-      <div
+      <Link
+        data-test="link-back"
+        to={links.goHome()}
         className="flex flex-row items-center justify-between w-16 left-44 absolute top-13 cursor-pointer"
-        onClick={() => window.history.back()}
       >
         <BackIcon />
         <div className="text-white">Voltar</div>
-      </div>
+      </Link>
       <div className="flex flex-row items-center left-100 absolute top-10">
         <div className="container-logo">
           <section className="logo" style={generateStyle(restaurant.logo)} />
         </div>
         <div className="pl-6">
-          <h1 className="text-white text-left">{restaurant.name}</h1>
+          <h1 data-test="restaurant-name" className="text-white text-left">
+            {restaurant.name}
+          </h1>
           <div>
             <h6 className="text-white">{formatPhone(restaurant.telephone ?? "")}</h6>
             <h6 className="text-white">{restaurant.website}</h6>

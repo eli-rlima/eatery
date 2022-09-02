@@ -14,7 +14,12 @@ const Card = ({ item }: Props) => {
   const navigate = useNavigate();
 
   return (
-    <div className="card-img" style={generateStyle(item.image)} onClick={() => navigate(links.getDetails(item.id))}>
+    <div
+      data-testid="card"
+      className="card-img"
+      style={generateStyle(item.image)}
+      onClick={() => navigate(links.getDetails(item.id))}
+    >
       <span className="card-title">{item.name}</span>
     </div>
   );

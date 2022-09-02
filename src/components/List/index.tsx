@@ -21,7 +21,9 @@ export default function List({ data, loading, searchTerm }: Props) {
             </div>
           </div>
         ) : (
-          <h2 className="w-[730px] justify-start">Restaurantes</h2>
+          <h2 className="w-[730px] justify-start" data-test="list-title">
+            Restaurantes
+          </h2>
         )}
       </div>
       {loading ? (
