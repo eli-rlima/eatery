@@ -21,19 +21,19 @@ export default function Header({ restaurant }: Props) {
       <Link
         data-test="link-back"
         to={links.goHome()}
-        className="flex flex-row items-center justify-between w-16 left-44 absolute top-13 cursor-pointer"
+        className="flex flex-row items-center justify-around w-[68px] left-44 absolute top-13 cursor-pointer"
       >
         <BackIcon />
-        <div className="text-white">Voltar</div>
+        <div className="back">Voltar</div>
       </Link>
       <div className="flex flex-row items-center left-100 absolute top-10">
         <div className="container-logo">
           <section className="logo" style={generateStyle(restaurant.logo)} />
         </div>
         <div className="pl-6">
-          <h1 data-test="restaurant-name" className="text-white text-left">
+          <div data-test="restaurant-name" className="restaurant-name">
             {restaurant.name}
-          </h1>
+          </div>
           <div>
             <h6 className="text-white">{formatPhone(restaurant.telephone ?? "")}</h6>
             <h6 className="text-white">{restaurant.website}</h6>
