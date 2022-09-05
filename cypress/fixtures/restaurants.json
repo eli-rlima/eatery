@@ -1,0 +1,129 @@
+{
+  "success": true,
+  "pagination": {
+    "total": 30,
+    "per_page": 10
+  },
+  "data": [
+    {
+      "id": "1",
+      "name": "Restaurant 1",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 1 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant1.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "2",
+      "name": "Restaurant 2",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 2 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant2.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "3",
+      "name": "Restaurant 3",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 3 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant3.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "4",
+      "name": "Restaurant 4",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 4 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant4.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "5",
+      "name": "Restaurant 5",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 5 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant5.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "6",
+      "name": "Restaurant 6",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 6 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant6.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "7",
+      "name": "Restaurant 7",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 7 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant7.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "8",
+      "name": "Restaurant 8",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 8 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant8.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "9",
+      "name": "Restaurant 9",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 9 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant9.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    },
+    {
+      "id": "10",
+      "name": "Restaurant 10",
+      "image": "https://loremflickr.com/640/480/cuisine",
+      "logo": "https://loremflickr.com/500/500/logo",
+      "description": "Restaurant 10 lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue orci erat, vitae bibendum arcu tempor ac. Suspendisse eget dignissim mi. Ut semper eros nulla, non sagittis mi imperdiet quis. Sed eget libero velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "telephone": "551143829385",
+      "price_range": "De R$ 40,00 a R$ 70,00 por pessoa.",
+      "payment_methods": "Dinheiro, cartão de crédito e débito.",
+      "website": "http://www.restaurant10.com.br",
+      "opening_hours": "De terça à domingo, das 17:00 ãs 23:00."
+    }
+  ]
+}

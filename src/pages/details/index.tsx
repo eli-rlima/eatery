@@ -25,7 +25,7 @@ export default function Details() {
   return (
     <Container title={`eatery - ${restaurant?.name ?? "details"}`}>
       {loading ? (
-        <div className="flex w-full h-[100vh] justify-center items-center">
+        <div data-testid="loading" className="flex w-full h-[100vh] justify-center items-center">
           <Loading type="spin" width="4%" color="#DD4F50" />
         </div>
       ) : (

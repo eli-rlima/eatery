@@ -28,7 +28,7 @@ export default function Header({ restaurant }: Props) {
       </Link>
       <div className="flex flex-row items-center left-100 absolute top-10">
         <div className="container-logo">
-          <section className="logo" style={generateStyle(restaurant.logo)} />
+          <section data-testid="logo-restaurant" className="logo" style={generateStyle(restaurant.logo)} />
         </div>
         <div className="pl-6">
           <div data-test="restaurant-name" className="restaurant-name">
